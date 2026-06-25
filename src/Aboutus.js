@@ -36,6 +36,9 @@ function Aboutus() {
                     </div>
                   </div>
                   </div>
+                  <div className='about-image'>
+                     <img src='./images/favicon.jpg'/>
+                  </div>
               </div>
 
          </div>

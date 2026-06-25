@@ -108,3 +108,11 @@
     font-size: 1 rem;
     letter-spacing: 2px;
 }
+
+.about-image> img{
+    width: 100%;
+    border-radius: 28px;
+    transition: transform 0.3s;
+    cursor: pointer;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+}
