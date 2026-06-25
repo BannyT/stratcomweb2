@@ -2,6 +2,13 @@ import React from 'react'
 import "./Aboutus.css"
 
 function Aboutus() {
+  const stats = [
+    { number: '5+', label: 'Years of Excellence' },
+    { number: '2k+', label: 'Students Trained' },
+    { number: '50+', label: 'Certified Instructors' },
+    { number: '98%', label: 'Success Rate' }
+  ];
+
   return (
     <div className='about-section' >
          <div className='about-container'>
@@ -39,6 +46,10 @@ function Aboutus() {
                   <div className='about-image'>
                      <img src='./images/favicon.jpg'/>
                   </div>
+              </div>
+
+              <div className='stats-grid'>
+
               </div>
 
          </div>
