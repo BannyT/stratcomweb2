@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Header from './Header';
 import Carousel from './Carousel';
+import Aboutus from './Aboutus';
 
 
 function App() {
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
     <Header/>
     <Carousel/>
+    <Aboutus/>
     </div>
   );
 }
