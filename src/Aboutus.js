@@ -64,6 +64,18 @@ function Aboutus() {
                         </div>         
                      ))}
               </div>
+              <div className='values-section'>
+                      <h3 className='values-title'>Our Values</h3>
+                      <div className='values-grid'>
+                        {values.map((value,idx)=>(
+                           <div key={idx} className='value-card'>
+                                 <h4>{value.title}</h4>
+                                 <p>{value.desc}</p>
+                           </div>
+                        ))}
+
+                      </div>
+              </div>
 
          </div>
     </div>
