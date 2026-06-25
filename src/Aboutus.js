@@ -25,7 +25,16 @@ function Aboutus() {
                     Our mission is simple: to equip learners with the skills they need to thrive in a digital-first economy. 
                       Whether you're starting from scratch or advancing your career, StratCom provides the roadmap to success.
                   </p>
-
+                  <div className='mission-vision'>
+                    <div className='mission'>
+                        <h4>Our Mission</h4>
+                        <p>Democratise Tech education and create more employment Opportunities for Youth in Uganda</p>
+                    </div>
+                    <div className='vision'>
+                      <h4>Our Vision</h4>
+                      <p>To be Africas Leading Tech Institution recognized for excellence and Innovation</p>
+                    </div>
+                  </div>
                   </div>
               </div>
 
