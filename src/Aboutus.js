@@ -57,7 +57,12 @@ function Aboutus() {
               </div>
 
               <div className='stats-grid'>
-
+                     {stats.map((stat,idx)=>(
+                        <div key={idx} className='statcard'>
+                           <div className='statnumber'>{stat.number}</div>
+                           <div className='statlabel'>{stat.label}</div>
+                        </div>         
+                     ))}
               </div>
 
          </div>
