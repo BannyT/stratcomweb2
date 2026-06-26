@@ -37,7 +37,11 @@ function Services() {
   return (
     <div className='services-section'>
        <div className='services-container'>
-
+           <div className='services-header'>
+                <span className='servives-badge'>What we Offer</span>
+                <h2 className='services-title'>Our Premium Services</h2>
+                <p className='services-subtitle'>Empowering  Your Future with industry-leading training and support</p>
+           </div>
        </div>
       
     </div>
