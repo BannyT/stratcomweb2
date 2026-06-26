@@ -43,24 +43,22 @@ function Services() {
                 <p className='services-subtitle'>Empowering  Your Future with industry-leading training and support</p>
            </div>
        </div>
-       <div className='services-grid'>
-            {servicesData.map((service,idx)=>(
-                <div key={idx} className='service-card'>
-                     <div className='service-icon'>{service.icon}</div>
-                     <h3 className='service-title'>{service.icon}</h3>
-                     <p className='service-description'>{service.icon}</p>
-                     <ul className='service-features'>
-                        {service.features.map((feature,idx)=>(
-                          <li key={idx}>{feature}</li>  
-                        ))
-                        }
-                     </ul>
-                     <button className='service-btn'> Learn More ...</button>
-                </div>
-            ))
+       <div className='services-grid'>     
+        {servicesData.map((service) => (
+            <div className="service-card" key={service.id}>
+              <div className="service-icon">{service.icon}</div>
+              <h3 className="service-title">{service.title}</h3>
+              <p className="service-description">{service.description}</p>
+              <ul className="service-features">
+                {service.features.map((feature, idx) => (
+                  <li key={idx}>{feature}</li>
+                ))}
+              </ul>
+              <button className="service-btn">Learn More →</button>
+            </div>
+          ))}
 
-            }
-       </div>
+        </div>
       
     </div>
   )
