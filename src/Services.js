@@ -2,7 +2,7 @@ import React from 'react'
 import './Services.css'
 
 function Services() {
-
+  // javascript runs here
   const servicesData = [
     {
       id: 1,
@@ -35,8 +35,11 @@ function Services() {
   ];
 
   return (
-    <div>
-      <h1>jdzfbdjkfzkbznjjz</h1>
+    <div className='services-section'>
+       <div className='services-container'>
+
+       </div>
+      
     </div>
   )
 }
