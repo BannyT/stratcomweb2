@@ -43,7 +43,7 @@ function Services() {
                 <p className='services-subtitle'>Empowering  Your Future with industry-leading training and support</p>
            </div>
        </div>
-       <div className='services-grid'>     
+        <div className='services-grid'>     
         {servicesData.map((service) => (
             <div className="service-card" key={service.id}>
               <div className="service-icon">{service.icon}</div>

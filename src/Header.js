@@ -11,10 +11,10 @@ function Header() {
            <nav className='navmenu'>
          <ul className='navlist'>
              <li className='navitem'><a className='navlink' href='/'>Home</a> </li>
-             <li className='navitem'><a className='navlink' href='/'>Aboutus</a> </li>
-             <li className='navitem'><a className='navlink' href='/'>Services</a> </li>
-             <li className='navitem'><a className='navlink' href='/'>Login</a> </li>
-             <li className='navitem'><a className='navlink' href='/'>SignUp</a> </li>
+             <li className='navitem'><a className='navlink' href='/aboutus'>Aboutus</a> </li>
+             <li className='navitem'><a className='navlink' href='/services'>Services</a> </li>
+             <li className='navitem'><a className='navlink' href='/login'>Login</a> </li>
+             <li className='navitem'><a className='navlink' href='/signup'>SignUp</a> </li>
          </ul>
       </nav>
         </div>
