@@ -1,0 +1,44 @@
+import React from 'react'
+import './Services.css'
+
+function Services() {
+
+  const servicesData = [
+    {
+      id: 1,
+      title: 'Coding Bootcamps',
+      icon: '💻',
+      description: 'Intensive, hands-on training in full-stack development, algorithms, and real-world projects. Launch your tech career in weeks.',
+      features: ['JavaScript/Python', 'Full-stack projects', 'Career support','Debugging']
+    },
+    {
+      id: 2,
+      title: 'Computer Networking',
+      icon: '🌐',
+      description: 'Design, configure, and secure modern networks. From LAN/WAN to cloud networking and SDN fundamentals.',
+      features: ['Routing & Switching', 'Network Security', 'Cloud integration']
+    },
+    {
+      id: 3,
+      title: 'Computer Repair & Maintenance',
+      icon: '🛠️',
+      description: 'Professional diagnostics, hardware repair, software troubleshooting, and preventive maintenance for all devices.',
+      features: ['Hardware repair', 'Virus removal', 'Performance optimization']
+    },
+    {
+      id: 4,
+      title: 'Cisco Certifications',
+      icon: '🏅',
+      description: 'Official CCNA, CCNP, and CCIE exam preparation. Lab-based training with certified instructors.',
+      features: ['CCNA', 'CCNP Security', 'Hands-on labs']
+    }
+  ];
+
+  return (
+    <div>
+      <h1>jdzfbdjkfzkbznjjz</h1>
+    </div>
+  )
+}
+
+export default Services
