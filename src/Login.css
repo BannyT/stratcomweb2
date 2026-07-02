@@ -74,8 +74,21 @@
     border-radius: 12px;
     background: #1971c2;
     color: white;
+    margin-bottom: 3px;
     font-size: 18px;
     letter-spacing: 1.5;
     border: none;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.login-switch{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: #74c0fc;
+}
+
+.login-switch a{
+    text-decoration: none;
+    cursor: pointer;
 }
