@@ -8,6 +8,7 @@ import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './Home';
 import Login from './Login'
 import Signup from './Signup';
+import Footer from './Footer';
 
 
 function App() {
@@ -23,6 +24,7 @@ function App() {
                   <Route path='/aboutus' element={<Aboutus/>}/>
                   <Route path='/services' element={<Services/>}/>
                 </Routes>
+                <Footer/>
               </>
              }/>
              <Route path='/login' element={<Login/>}/>

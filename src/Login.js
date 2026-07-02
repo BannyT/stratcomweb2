@@ -6,7 +6,7 @@ function Login() {
     <div className='login-page'>
           <div className='login-card'>
             <div className='login-header'>
-               <span className='login-brand'>Stratcom</span>
+               <span className='login-brand'><a href='/'>Stratcom</a></span>
                <h2>Welcome Back</h2>
                <p>Sign In to Continue ...</p>
             </div>
