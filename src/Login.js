@@ -21,7 +21,9 @@ function Login() {
                  </div>
                  <button className='login-button'>SignIn</button>
             </form>
-
+             <p className='login-switch'>
+               Don't Have an Account? <a href='/signup'>Signup</a>
+             </p>
           </div>
     </div>
   )
