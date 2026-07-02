@@ -67,3 +67,15 @@
     background-color: white;
     border-radius: 12px;
 }
+.login-button{
+    width: 100%;
+    padding:10px;
+    cursor: pointer;
+    border-radius: 12px;
+    background: #1971c2;
+    color: white;
+    font-size: 18px;
+    letter-spacing: 1.5;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
