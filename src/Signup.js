@@ -1,6 +1,6 @@
 import React,{useEffect,useState} from 'react'
 import { useNavigate } from 'react-router-dom'
-import {auth,createUserWithEmailAndPassword} from '../firebase'
+import {auth,createUserWithEmailAndPassword,updateProfile} from './firebase'
 import './Signup.css'
 
 function Signup() {
@@ -72,6 +72,7 @@ function Signup() {
            </div>
            <button onClick={createUser}   className='signup-button'>Create Account</button>
       </form>
+        <p className='error'>{error}</p>
        <p className='signup-switch'>
          Already Have an Account? <a href='/login'>SignIn</a>
        </p>
