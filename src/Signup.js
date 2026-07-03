@@ -25,11 +25,11 @@ function Signup() {
            </div>
            <div className='signup-form-group'>
              <label className='label'>Enter Your Email Address</label>
-             <input type='email'  placeholder=' e.g tom@gmail.com' /> 
+             <input value={email} onChange={(e)=>setEmail(e.target.value)} type='email'  placeholder=' e.g tom@gmail.com' /> 
            </div>
            <div className='signup-form-group'>
              <label className='label'>Enter Your Password</label>
-             <input type='password'  placeholder='*******' /> 
+             <input value={password} onChange={(e)=>setPassword(e.target.value)} type='password'  placeholder='*******' /> 
            </div>
            <button className='signup-button'>Create Account</button>
       </form>
