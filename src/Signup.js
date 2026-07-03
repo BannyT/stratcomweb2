@@ -28,7 +28,7 @@ function Signup() {
             const user =userCredential.user;
             await updateProfile(user,{displayName:username})
             alert('User has been Created Sucessfully');
-            navigate('/')
+            navigate('/dashboard')
           }catch(err){
              switch(err.code){
                  case 'auth/email-already-in-use':

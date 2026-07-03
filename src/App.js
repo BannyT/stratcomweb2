@@ -9,6 +9,7 @@ import Home from './Home';
 import Login from './Login'
 import Signup from './Signup';
 import Footer from './Footer';
+import Dashboard from './Dashboard';
 
 
 function App() {
@@ -29,6 +30,7 @@ function App() {
              }/>
              <Route path='/login' element={<Login/>}/>
              <Route path='/signup' element={<Signup/>}/>
+             <Route path='/dashboard' element={<Dashboard/>}/>
         </Routes>
       </Router>
     </div>
