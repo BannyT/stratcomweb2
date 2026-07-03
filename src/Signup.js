@@ -1,7 +1,15 @@
-import React from 'react'
+import React,{useEffect,useState} from 'react'
 import './Signup.css'
 
 function Signup() {
+  //  javascript code runs here
+   const [email,setEmail]=useState('')
+   const [password,setPassword]=useState('')
+   const [username,setuserName]=useState('')
+   const [image,setImage]=useState('')
+
+    console.log(username)
+
   return (
     <div className='signup-page'>
     <div className='signup-card'>
@@ -13,7 +21,7 @@ function Signup() {
       <form className='signup-form'>
       <div className='signup-form-group'>
              <label className='label'>Enter Your User Name</label>
-             <input type='text'  placeholder=' e.g Tom' /> 
+             <input value={username} onChange={(e)=>setuserName(e.target.value)} type='text'  placeholder=' e.g Tom' /> 
            </div>
            <div className='signup-form-group'>
              <label className='label'>Enter Your Email Address</label>
