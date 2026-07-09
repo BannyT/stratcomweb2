@@ -10,6 +10,13 @@ function Dashboard() {
              <span className='topbar-greeting'> Hell0, Tummusiime</span>
            </div>
            <button className='topbar-logout'>LogOut</button>
+       </div>
+       <div className='dashboard-container'>
+           <div className='dashboard-header'>
+                 <span className='dashboard-badge'> Intership LogBook</span>
+                 <h1 className='high-light'>My Activities</h1>
+                 <p>Track Your Intership Activities</p>
+           </div>
 
        </div>
        
