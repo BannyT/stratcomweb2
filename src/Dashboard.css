@@ -155,10 +155,10 @@
     width: 150px;
 }
 
-.activities-section h3{
+.activities-section {
        text-align: center;
-       padding: 3rem;
-       background: #ced4da;
+       padding: 1.5rem;
+       background: #e7f5ff;
        border-radius: 15px;
 }
 
