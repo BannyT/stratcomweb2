@@ -49,7 +49,13 @@ function Dashboard() {
                      </div>
                  </form>
            </div>
+           <div className='activities-section'>
+               <div className='activities-header'>
+                           <h3 className='activities-header-title'>Your Log Book</h3>
+                           <button className='btn-export'>Export PDF</button>
+               </div>
 
+           </div>
        </div>
        
     </div>

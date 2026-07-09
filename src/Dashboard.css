@@ -154,3 +154,32 @@
     background: #343a40;
     width: 150px;
 }
+
+.activities-section h3{
+       text-align: center;
+       padding: 3rem;
+       background: #ced4da;
+       border-radius: 15px;
+}
+
+.activities-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.btn-export{
+      
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 18px;
+    font-weight: 600;
+    font-size: 0.9rem;
+    background:#adb5bd;
+    width: 150px;
+}
