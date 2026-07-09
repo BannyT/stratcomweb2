@@ -72,6 +72,22 @@ function Dashboard() {
                                  <button className='btn-delete'>Delete Activity</button>
                               </div>
                       </div>
+                      <div className='activity-card'>
+                              <div className='activity-content'>
+                                <h4>Router Configuration</h4>
+                                <span className='act-subtitle'>Router Configuration in PAcket Tracer </span>
+                                <p className='act-description'>
+                                There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with 
+                                
+                                a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.
+                                </p>
+                                 <small className='act-date'>9th/July/2026</small>  
+                              </div>
+                              <div className='activity-actions'>
+                                 <button className='btn-edit'> Edit Activity</button>
+                                 <button className='btn-delete'>Delete Activity</button>
+                              </div>
+                      </div>
                </div>
        </div>
        
