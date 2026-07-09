@@ -3,8 +3,16 @@ import './Dashboard.css'
 
 function Dashboard() {
   return (
-    <div>
-       <h2>This is a dashboard page</h2>
+    <div className='dashboard'>
+       <div className='dashboard-topbar'>
+           <div className='topbar-left'>
+             <span className='topbar-logo'>StratCom</span>
+             <span className='topbar-greeting'> Hell0, Tummusiime</span>
+           </div>
+           <button className='topbar-logout'>LogOut</button>
+
+       </div>
+       
     </div>
   )
 }
