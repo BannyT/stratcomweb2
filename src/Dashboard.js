@@ -31,17 +31,26 @@ const Dashboard = () => {
 
   // Get current user from Firebase Auth
   useEffect(() => {
-    const unsubscribeAuth = auth.onAuthStateChanged((currentUser) => {
-      setUser(currentUser);
-      if (!currentUser) {
+       checkuser()
+  }, [navigate]);
+
+  const checkuser=()=>{       
+    const un = auth.onAuthStateChanged((x) => {
+      setUser(x);
+      if (!x) {
         navigate('/login');
       }
     });
-    return () => unsubscribeAuth();
-  }, [navigate]);
+    return () => un();
+  }
 
   // 🔥 Real‑time listener for activities
   useEffect(() => {
+    fetchData()
+  }, []);
+
+
+  const fetchData =()=>{    
     const q = query(collection(db, 'activities'), orderBy('createdAt', 'desc'));
     const unsubscribe = onSnapshot(q, (snapshot) => {
       const fetched = snapshot.docs.map((doc) => ({
@@ -52,7 +61,7 @@ const Dashboard = () => {
     });
 
     return () => unsubscribe();
-  }, []);
+  }
 
   // Handle input changes
   const handleInputChange = (e) => {
@@ -299,10 +308,10 @@ const Dashboard = () => {
                   </div>
                   <div className="activity-actions">
                     <button className="btn-edit" onClick={() => handleEdit(act)}>
-                      ✏️
+                      ✏️ Edit
                     </button>
                     <button className="btn-delete" onClick={() => handleDelete(act.id)}>
-                      🗑️
+                      🗑️ Delete
                     </button>
                   </div>
                 </div>
